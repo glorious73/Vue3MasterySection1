@@ -3,7 +3,8 @@ const vi = Vue.createApp({
         return {
             firstName: "Amjad",
             lastName: "Aj",
-            url: "https://twitter.com"
+            url: "https://twitter.com",
+            raw_url: '<a href="https://google.com" target="_blank">Google</a>'
         }
     },
     methods: {

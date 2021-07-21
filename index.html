@@ -10,13 +10,19 @@
   <div id="app">
     <p>{{ fullName() }}</p>
 
+    <hr>
+
     <label for="firstName">First Name</label>
     <input type="text" name="firstName" v-model="firstName">
 
     <label for="lastName">Last Name</label>
     <input type="text" name="lastName" v-model="lastName">
 
-    <a v-bind:href="url" target="_blank">{{ url }}</a>
+    <hr>
+
+    <p><a v-bind:href="url" target="_blank">{{ url }}</a></p>
+    <p v-html="raw_url"></p>
+
   </div>
 
   <script src="https://unpkg.com/vue@next"></script>
