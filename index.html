@@ -23,6 +23,12 @@
     <p><a v-bind:href="url" target="_blank">{{ url }}</a></p>
     <p v-html="raw_url"></p>
 
+    <hr>
+
+    <p>Age: {{ age }}</p>
+    <button type="button" v-on:click="increment">Increment</button>
+    <button type="button" v-on:click="age--">Decrement</button>
+
   </div>
 
   <script src="https://unpkg.com/vue@next"></script>
