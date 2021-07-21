@@ -2,7 +2,8 @@ const vi = Vue.createApp({
     data() {
         return {
             firstName: "Amjad",
-            lastName: "Aj"
+            lastName: "Aj",
+            url: "https://twitter.com"
         }
     },
     methods: {
