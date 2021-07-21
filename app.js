@@ -14,6 +14,9 @@ const vi = Vue.createApp({
         },
         increment() {
             this.age++;
+        },
+        updateLastName(e) {
+            this.lastName = e.target.value;
         }
     }
 }).mount('#app');
