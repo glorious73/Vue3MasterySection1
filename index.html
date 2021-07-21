@@ -8,7 +8,13 @@
 
 <body>
   <div id="app">
-    {{ fullName() }}
+    <p>{{ fullName() }}</p>
+
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" v-model="firstName">
+
+    <label for="lastName">Last Name</label>
+    <input type="text" name="lastName" v-model="lastName">
   </div>
 
   <script src="https://unpkg.com/vue@next"></script>
